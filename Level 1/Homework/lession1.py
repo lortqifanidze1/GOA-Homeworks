@@ -1,7 +1,7 @@
 name = "luka"
 surname = "lortkifanidze"
 age = 14
-height = 1.71 
+height = 1.65 
 my = "chemi" 
 sa = "saxeli"
 ir = 'aris'
