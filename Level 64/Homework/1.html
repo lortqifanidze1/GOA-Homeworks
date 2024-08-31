@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loading Animation</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            background-color: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .apple-logo {
+            width: 100px;
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .loading-bar {
+            width: 300px;
+            height: 5px;
+            background-color: #555;
+            border-radius: 2.5px;
+            overflow: hidden;
+        }
+
+        .loading-bar-inner {
+            width: 0;
+            height: 100%;
+            background-color: #fff;
+            animation: loading 3s infinite;
+        }
+
+        @keyframes loading {
+            0% {
+                width: 0;
+            }
+            100% {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="loading-bar">
+        <div class="loading-bar-inner"></div>
+    </div>
+</body>
+</html>
