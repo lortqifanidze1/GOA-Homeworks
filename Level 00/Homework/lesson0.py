@@ -1,8 +1,7 @@
 from turtle import*
-
 speed(10)
 shape("turtle")
-
+bgcolor("cyan")
 color("yellow")
 begin_fill()
 forward(200)
