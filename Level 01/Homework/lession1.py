@@ -1,12 +1,5 @@
 name = "luka"
-surname = "lortkifanidze"
+lastname = 'lortfkidanidze'
 age = 14
-height = 1.65 
-my = "chemi" 
-sa = "saxeli"
-ir = 'aris'
-im = " me var"
-gb = "da"
-
-
-print(my+" "+sa+" "+ir+" "+name +" "+ surname +" "+ im +" "+ str(age)  +" "+ gb  +" "+  im  +" "+ str(height))
+height = 160.0
+print("my name is " +" "+ name+ " " + lastname + " "+ "and im " + " " + str(age) + " "+ "years old" + " "+ "and im "+' '+ str(height))
